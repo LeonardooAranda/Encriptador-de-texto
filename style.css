@@ -1,0 +1,47 @@
+:root {
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario:#F3F5FC;
+    --secundario: #0A3871;
+    --terciario: #868e96;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.logo{
+    justify-content: center;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.boton2:hover{
+    cursor: pointer;
+}
+.boton{
+    background-color:var(--secundario);
+    border-radius: .5rem;
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.boton2{
+    background-color:var(--terciario);
+    border-radius: .5rem;
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.body{
+    background-color: var(--primario);
+    font-family: "Inter";
+    font-size: 16px; 
+}
